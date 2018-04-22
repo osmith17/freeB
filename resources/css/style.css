@@ -1,0 +1,115 @@
+html{
+  font-size: 16px;
+  font-family: "Lora", serif;
+  background-color: #E5E5E5;
+  color: #171717;
+}
+.sitecontainer{
+  width: 100%;
+}
+nav{
+  background-color: #14213D;
+  display: flex;
+}
+.colorme{
+  color: white;
+  font-size: 1.5rem;
+}
+nav li{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.jumbotron{
+  background-image: URL("../images/sitting.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.jumbotron h1{
+  margin-top: 12rem;
+  color: white;
+  margin-left: 4rem;
+  font-family:'Arizonia';
+}
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+/*.bannerimgcontainer{
+background-image: URL("../images/sitting.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.bannerimgcontainer{
+  width: 100%;
+  height: 600px;
+}
+h1{
+  font-size: 40px;
+  color: white;
+  padding-left: 60px;
+  padding-top: 220px;
+font-weight: bold;
+font-family: "Bitter", serif;
+}}*/
+.container-fluid{
+  justify-content:center;
+  display: flex;
+}
+.bio{
+  margin-top: 2rem;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.intro{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.mountaincontainer{
+  width:50%;
+  margin: 2rem 0 ;
+}
+.mountainimg{
+  max-width: 100%;
+  max-height: 100%;
+}
+.row{
+  margin-top: 2rem;
+}
+@media only screen and (max-width:480px){
+  .jumbotron h1{
+    font-size:3rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+  nav li{
+    padding-left:0;
+    padding-right:0;
+  }
+  .navbar-brand{
+    margin-right: 1rem;
+    margin-top: 3px;
+  }
+    .colorme{
+      color: white;
+      font-size: 1rem;
+}
+nav {
+  height: 50px;
+}
+.dropdown-menu{
+  max-width: 50px;
+}
+.colormedrop{
+  background-color: white;
+}
+.intro{
+  font-size: 1rem;
+}
+}
