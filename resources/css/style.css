@@ -7,6 +7,16 @@ html{
 .sitecontainer{
   width: 100%;
 }
+.insta{
+  color: purple;
+}
+.colorB{
+  color: gold;
+  font-size: 1.4rem;
+}
+a:hover{
+cursor: pointer;
+}
 nav{
   background-color: #14213D;
   display: flex;
@@ -99,6 +109,10 @@ font-family: "Bitter", serif;
     .colorme{
       color: white;
       font-size: 1rem;
+}
+.colorB{
+  color: gold;
+  font-size: 1rem;
 }
 nav {
   height: 50px;
